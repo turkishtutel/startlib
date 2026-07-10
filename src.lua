@@ -43,7 +43,7 @@ function FatalityLib:Anim(animName)
 	UIListLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
 	UIListLayout.VerticalAlignment = Enum.VerticalAlignment.Center
 	UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
-	UIListLayout.Padding = UDim.new(0, 20)
+	UIListLayout.Padding = UDim.new(0, 0)
 	UIListLayout.Parent = AnimationContainer
 
 	local fontAsset = Font.fromName("BuilderSans", Enum.FontWeight.Heavy)
